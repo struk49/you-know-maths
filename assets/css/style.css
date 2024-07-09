@@ -3,7 +3,8 @@
 body {
     background-color: white;
     font-family: "Raleway", sans-serif;
-    color: #445361;
+    color: black;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -22,7 +23,7 @@ body {
 /* --------- Game layout */
 
 .game-area {
-    background-color: #E6ECF0;
+    background-color: #999;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
@@ -38,6 +39,7 @@ body {
     font-size: 2rem;
     margin: auto;
     padding: 50px 0;
+    color: #0d1013;
 }
 
 .question-area span {
@@ -48,6 +50,7 @@ body {
     margin: 5px auto;
     width: 60%;
     font-size: 1.2rem;
+    color: black;
 }
 
 .controls-area {
@@ -165,14 +168,16 @@ body {
 
 .btn--gray {
     margin-top: 25px;
-    background-color: #445361;
+    background-color: #0d1013;
     border: 1px transparent;
     border-radius: 20px;
+    color: #fff;
 }
 
 .btn--gray:active,
 .btn--gray:hover {
-    background-color: #0d1013;
+    background-color: #fff;
+    color: black;
 }
 
 /* --------- Media queries */
